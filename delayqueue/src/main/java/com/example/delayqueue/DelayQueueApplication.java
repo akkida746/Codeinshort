@@ -4,8 +4,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-
-import java.util.LinkedList;
 import java.util.concurrent.*;
 
 /*DelayQueue is an implementation of BlockingQueue where element can be taken out when its delay is expired.*/
@@ -20,7 +18,7 @@ public class DelayQueueApplication {
 	CommandLineRunner runner(){
 		return args -> {
 			System.out.println("Application started..");
-			BlockingQueue<DelayObject> queue = new LinkedBlockingQueue<>();
+			BlockingQueue<DelayObject> queue = new DelayQueue<>();
 			Producer producer = new Producer(queue);
 			Consumer consumer = new Consumer(queue);
 
