@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>delayqueue</artifactId>
+	<artifactId>examples</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>delayqueue</name>
+	<name>examples</name>
 	<description>Delay Queue</description>
 
 	<properties>
