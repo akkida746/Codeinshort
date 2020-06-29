@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Codeinshort.iml" filepath="$PROJECT_DIR$/.idea/Codeinshort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cqrs/cqrs/cqrs.iml" filepath="$PROJECT_DIR$/cqrs/cqrs/cqrs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cqrsspringboot/cqrsspringboot/cqrsspringboot.iml" filepath="$PROJECT_DIR$/cqrsspringboot/cqrsspringboot/cqrsspringboot.iml" />
+    </modules>
+  </component>
+</project>
