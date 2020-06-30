@@ -1,13 +1,14 @@
-DROP TABLE IF EXISTS billionaires;
-
-CREATE TABLE billionaires (
-  id INT AUTO_INCREMENT  PRIMARY KEY,
-  first_name VARCHAR(250) NOT NULL,
-  last_name VARCHAR(250) NOT NULL,
-  career VARCHAR(250) DEFAULT NULL
+drop table if exists VIDEO_SERIES;  
+  
+create table VIDEO_SERIES  
+(  
+    ID         bigint auto_increment primary key not null,  
+    NAME       varchar(100)                      not null,  
+    VOLUMES    int                               not null,  
+    CASH_VALUE decimal                           not null,  
+    GENRE      varchar(100)                      not null  
 );
 
-INSERT INTO billionaires (first_name, last_name, career) VALUES
-  ('Aliko', 'Dangote', 'Billionaire Industrialist'),
-  ('Bill', 'Gates', 'Billionaire Tech Entrepreneur'),
-  ('Folrunsho', 'Alakija', 'Billionaire Oil Magnate');
+insert into VIDEO_SERIES (NAME, VOLUMES, CASH_VALUE, GENRE) values ('Modern Family', 12, 12.3, 'SITCOM');
+insert into VIDEO_SERIES (NAME, VOLUMES, CASH_VALUE, GENRE) values ('Six Feet Under', 10, 34.3, 'DRAMA');
+insert into VIDEO_SERIES (NAME, VOLUMES, CASH_VALUE, GENRE) values ('Queer as Folk', 24, 55.3, 'DRAMA');
