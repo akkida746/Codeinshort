@@ -6,6 +6,9 @@
         <option value="$PROJECT_DIR$/delayqueue/pom.xml" />
         <option value="$PROJECT_DIR$/cqrs/cqrs/pom.xml" />
         <option value="$PROJECT_DIR$/cqrsspringboot/cqrsspringboot/pom.xml" />
+        <option value="$PROJECT_DIR$/feignclient/feignclient/pom.xml" />
+        <option value="$PROJECT_DIR$/awssns/awssns/pom.xml" />
+        <option value="$PROJECT_DIR$/Examples/pom.xml" />
       </list>
     </option>
   </component>

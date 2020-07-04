@@ -7,21 +7,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="awssns" />
+        <module name="examples" />
         <module name="cqrs" />
+        <module name="feignclient" />
         <module name="cqrsspringboot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="awssns" target="1.8" />
       <module name="cqrs" target="1.8" />
       <module name="cqrsspringboot" target="1.8" />
       <module name="delayqueue" target="1.8" />
+      <module name="examples" target="1.8" />
+      <module name="feignclient" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="awssns" options="-parameters" />
       <module name="cqrs" options="-parameters" />
       <module name="cqrsspringboot" options="-parameters" />
       <module name="delayqueue" options="-parameters" />
+      <module name="examples" options="-parameters" />
+      <module name="feignclient" options="-parameters" />
     </option>
   </component>
 </project>

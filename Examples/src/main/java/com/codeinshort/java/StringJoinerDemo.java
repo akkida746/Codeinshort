@@ -1,4 +1,4 @@
-package com.codeinshort.stringjoiner;
+package com.codeinshort.java;
 
 import java.util.StringJoiner;
 
