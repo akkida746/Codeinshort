@@ -10,13 +10,13 @@ import org.springframework.context.annotation.Bean;
 
 @Slf4j
 @SpringBootApplication
-public class MessageRoutingApplication {
+public class ActiveMqJmsExample {
 
     @Autowired
     private JmsProducer jmsProducer;
 
 	public static void main(String[] args) {
-		SpringApplication.run(MessageRoutingApplication.class, args);
+		SpringApplication.run(ActiveMqJmsExample.class, args);
 	}
 
 	@Bean

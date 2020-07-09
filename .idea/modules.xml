@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ActiveMqJms/ActiveMqJms/ActiveMq.iml" filepath="$PROJECT_DIR$/ActiveMqJms/ActiveMqJms/ActiveMq.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Codeinshort.iml" filepath="$PROJECT_DIR$/.idea/Codeinshort.iml" />
       <module fileurl="file://$PROJECT_DIR$/awssns/awssns/awssns.iml" filepath="$PROJECT_DIR$/awssns/awssns/awssns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/camelrouting/camelrouting/camelrouting.iml" filepath="$PROJECT_DIR$/camelrouting/camelrouting/camelrouting.iml" />
       <module fileurl="file://$PROJECT_DIR$/cqrs/cqrs/cqrs.iml" filepath="$PROJECT_DIR$/cqrs/cqrs/cqrs.iml" />
       <module fileurl="file://$PROJECT_DIR$/cqrsspringboot/cqrsspringboot/cqrsspringboot.iml" filepath="$PROJECT_DIR$/cqrsspringboot/cqrsspringboot/cqrsspringboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/Examples/examples.iml" filepath="$PROJECT_DIR$/Examples/examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/feignclient/feignclient/feignclient.iml" filepath="$PROJECT_DIR$/feignclient/feignclient/feignclient.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ActiveMqJms/ActiveMqJms/messagerouting.iml" filepath="$PROJECT_DIR$/ActiveMqJms/ActiveMqJms/messagerouting.iml" />
       <module fileurl="file://$PROJECT_DIR$/rsocket/rsocket/rsocket.iml" filepath="$PROJECT_DIR$/rsocket/rsocket/rsocket.iml" />
     </modules>
   </component>
