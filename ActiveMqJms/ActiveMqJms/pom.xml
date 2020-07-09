@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.codeinshort</groupId>
-	<artifactId>messagerouting</artifactId>
+	<artifactId>ActiveMq</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>messagerouting</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Spring Boot ActiveMq Example</description>
 
 	<properties>
 		<java.version>1.8</java.version>

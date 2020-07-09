@@ -8,7 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/cqrsspringboot/cqrsspringboot/cqrsspringboot.iml" filepath="$PROJECT_DIR$/cqrsspringboot/cqrsspringboot/cqrsspringboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/Examples/examples.iml" filepath="$PROJECT_DIR$/Examples/examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/feignclient/feignclient/feignclient.iml" filepath="$PROJECT_DIR$/feignclient/feignclient/feignclient.iml" />
-      <module fileurl="file://$PROJECT_DIR$/messagerouting/messagerouting/messagerouting.iml" filepath="$PROJECT_DIR$/messagerouting/messagerouting/messagerouting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ActiveMqJms/ActiveMqJms/messagerouting.iml" filepath="$PROJECT_DIR$/ActiveMqJms/ActiveMqJms/messagerouting.iml" />
       <module fileurl="file://$PROJECT_DIR$/rsocket/rsocket/rsocket.iml" filepath="$PROJECT_DIR$/rsocket/rsocket/rsocket.iml" />
     </modules>
   </component>
