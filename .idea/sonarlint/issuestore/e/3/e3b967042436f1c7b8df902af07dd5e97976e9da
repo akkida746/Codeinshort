@@ -1,0 +1,8 @@
+
+U	java:S1069"9Replace this use of System.out or System.err by a logger.(«‹Îõ8Å¢±À±.
+W
+java:S1118,":Add a private constructor to hide the implicit public one.(ùÜˆæ8Â•¥À±.
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(ü¬¸ãþÿÿÿÿ8ôá‰À±.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ò¦òë8šÆ…À±.
+f
+java:S2147$"DCombine this catch with the one at line 33, which has the same body.(ñ“Š±üÿÿÿÿ8Îü„À±.

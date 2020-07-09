@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/feignclient/feignclient/pom.xml" />
         <option value="$PROJECT_DIR$/awssns/awssns/pom.xml" />
         <option value="$PROJECT_DIR$/Examples/pom.xml" />
+        <option value="$PROJECT_DIR$/rsocket/rsocket/pom.xml" />
+        <option value="$PROJECT_DIR$/messagerouting/messagerouting/pom.xml" />
       </list>
     </option>
   </component>

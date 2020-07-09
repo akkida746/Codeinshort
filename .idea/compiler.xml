@@ -7,11 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="awssns" />
-        <module name="examples" />
-        <module name="cqrs" />
-        <module name="feignclient" />
         <module name="cqrsspringboot" />
+        <module name="rsocket" />
+        <module name="awssns" />
+        <module name="feignclient" />
+        <module name="cqrs" />
+        <module name="examples" />
+        <module name="messagerouting" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +23,8 @@
       <module name="delayqueue" target="1.8" />
       <module name="examples" target="1.8" />
       <module name="feignclient" target="1.8" />
+      <module name="messagerouting" target="1.8" />
+      <module name="rsocket" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -31,6 +35,8 @@
       <module name="delayqueue" options="-parameters" />
       <module name="examples" options="-parameters" />
       <module name="feignclient" options="-parameters" />
+      <module name="messagerouting" options="-parameters" />
+      <module name="rsocket" options="-parameters" />
     </option>
   </component>
 </project>

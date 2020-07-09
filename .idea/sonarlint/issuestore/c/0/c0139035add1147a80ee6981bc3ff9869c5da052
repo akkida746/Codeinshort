@@ -1,0 +1,10 @@
+
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(×Öä´8Ï‹î§±.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(×Öä´8Ôå§±.
+U	java:S1068"9Replace this use of System.out or System.err by a logger.(ÊãåÕ8ç´î§±.
+d
+java:S1128"BRemove this unused import 'software.amazon.awssdk.regions.Region'.(ˆà‹Äıÿÿÿÿ8ÀšÚ§±.
+\
+java:S1118	":Add a private constructor to hide the implicit public one.(—ËÈ¬ıÿÿÿÿ8Ôå§±.
+U	java:S106;"9Replace this use of System.out or System.err by a logger.(×Öä´8ç´î§±.
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(½©Ì¬8Ï‹î§±.
