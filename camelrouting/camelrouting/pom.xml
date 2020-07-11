@@ -26,6 +26,13 @@
         </dependency>
         <dependency>
             <groupId>org.apache.camel</groupId>
+            <artifactId>camel-http</artifactId>
+            <version>3.4.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.camel</groupId>
             <artifactId>camel-jms</artifactId>
             <version>3.4.0</version>
         </dependency>

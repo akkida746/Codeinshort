@@ -1,4 +1,4 @@
-package com.codeinshort.messagerouting.controller;
+package com.codeinshort.camelrouting.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
