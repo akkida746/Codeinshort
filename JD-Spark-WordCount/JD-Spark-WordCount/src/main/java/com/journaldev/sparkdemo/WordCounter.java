@@ -12,7 +12,11 @@ public class WordCounter {
 
     private static void wordCount(String fileName, String outputFile) {
 
+        /*When running in local*/
     	SparkConf conf = new SparkConf().setMaster("local").setAppName("WorkCount");
+
+    	/*When running in AWS EMR*/
+    	/*SparkConf conf = new SparkConf().setMaster("local").setAppName("WorkCount");*/
 
         // Create a Java version of the Spark Context from the configuration
         JavaSparkContext sc = new JavaSparkContext(conf);
