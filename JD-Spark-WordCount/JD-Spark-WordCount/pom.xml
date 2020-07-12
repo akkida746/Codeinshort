@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.journaldev</groupId>
-	<artifactId>java-word-count</artifactId>
+	<artifactId>wordcount</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -26,6 +26,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<jdk.version>1.8</jdk.version>
 		<encoding>UTF-8</encoding>
 		<spark.version>1.6.1</spark.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -33,7 +34,7 @@
 	</properties>
 
 	<build>
-		<finalName>dateutils</finalName>
+		<finalName>wordcount</finalName>
 		<plugins>
 
 			<!-- download source code in Eclipse, best practice -->
@@ -53,38 +54,47 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.3.2</version>
 				<configuration>
-					<source>${java.version}</source>
-					<target>${java.version}</target>
+					<source>${jdk.version}</source>
+					<target>${jdk.version}</target>
 				</configuration>
 			</plugin>
 
-			<!-- Maven Assembly Plugin -->
+			<!-- Make this jar executable -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-assembly-plugin</artifactId>
-				<version>2.4.1</version>
+				<artifactId>maven-jar-plugin</artifactId>
 				<configuration>
-					<!-- get all project dependencies -->
-					<descriptorRefs>
-						<descriptorRef>jar-with-dependencies</descriptorRef>
-					</descriptorRefs>
-					<!-- MainClass in mainfest make a executable jar -->
-					<archive>
-						<manifest>
-							<mainClass>com.journaldev.sparkdemo.WordCounter</mainClass>
-						</manifest>
-					</archive>
-
+				  <excludes>
+					<exclude>**/log4j.properties</exclude>
+				  </excludes>
+				  <archive>
+				    <manifest>
+					<addClasspath>true</addClasspath>
+					<mainClass>com.journaldev.sparkdemo.WordCounter</mainClass>
+					<classpathPrefix>dependency-jars/</classpathPrefix>
+				    </manifest>
+				  </archive>
 				</configuration>
+			</plugin>
+
+			<!-- Copy project dependency -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<version>2.5.1</version>
 				<executions>
-					<execution>
-						<id>make-assembly</id>
-						<!-- bind to the packaging phase -->
-						<phase>package</phase>
-						<goals>
-							<goal>single</goal>
-						</goals>
-					</execution>
+				  <execution>
+					<id>copy-dependencies</id>
+					<phase>package</phase>
+					<goals>
+						<goal>copy-dependencies</goal>
+					</goals>
+					<configuration>
+					  <!-- exclude junit, we need runtime dependency only -->
+					  <includeScope>runtime</includeScope>
+					  <outputDirectory>${project.build.directory}/dependency-jars/</outputDirectory>
+					</configuration>
+				  </execution>
 				</executions>
 			</plugin>
 

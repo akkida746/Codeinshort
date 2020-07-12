@@ -1,5 +1,82 @@
 Manifest-Version: 1.0
 Built-By: deepa
+Class-Path: dependency-jars/spark-core_2.11-1.4.0.jar dependency-jars/
+ chill_2.11-0.5.0.jar dependency-jars/kryo-2.21.jar dependency-jars/re
+ flectasm-1.07-shaded.jar dependency-jars/minlog-1.2.jar dependency-ja
+ rs/objenesis-1.2.jar dependency-jars/chill-java-0.5.0.jar dependency-
+ jars/hadoop-client-2.2.0.jar dependency-jars/hadoop-common-2.2.0.jar 
+ dependency-jars/commons-cli-1.2.jar dependency-jars/commons-math-2.1.
+ jar dependency-jars/xmlenc-0.52.jar dependency-jars/commons-io-2.1.ja
+ r dependency-jars/commons-logging-1.1.1.jar dependency-jars/commons-l
+ ang-2.5.jar dependency-jars/commons-configuration-1.6.jar dependency-
+ jars/commons-collections-3.2.1.jar dependency-jars/commons-digester-1
+ .8.jar dependency-jars/commons-beanutils-1.7.0.jar dependency-jars/co
+ mmons-beanutils-core-1.8.0.jar dependency-jars/jackson-core-asl-1.8.8
+ .jar dependency-jars/avro-1.7.4.jar dependency-jars/protobuf-java-2.5
+ .0.jar dependency-jars/hadoop-auth-2.2.0.jar dependency-jars/commons-
+ compress-1.4.1.jar dependency-jars/xz-1.0.jar dependency-jars/hadoop-
+ hdfs-2.2.0.jar dependency-jars/jetty-util-6.1.26.jar dependency-jars/
+ hadoop-mapreduce-client-app-2.2.0.jar dependency-jars/hadoop-mapreduc
+ e-client-common-2.2.0.jar dependency-jars/hadoop-yarn-client-2.2.0.ja
+ r dependency-jars/guice-3.0.jar dependency-jars/javax.inject-1.jar de
+ pendency-jars/aopalliance-1.0.jar dependency-jars/jersey-test-framewo
+ rk-grizzly2-1.9.jar dependency-jars/jersey-test-framework-core-1.9.ja
+ r dependency-jars/javax.servlet-api-3.0.1.jar dependency-jars/jersey-
+ client-1.9.jar dependency-jars/jersey-grizzly2-1.9.jar dependency-jar
+ s/grizzly-http-2.1.2.jar dependency-jars/grizzly-framework-2.1.2.jar 
+ dependency-jars/gmbal-api-only-3.0.0-b023.jar dependency-jars/managem
+ ent-api-3.0.0-b012.jar dependency-jars/grizzly-http-server-2.1.2.jar 
+ dependency-jars/grizzly-rcm-2.1.2.jar dependency-jars/grizzly-http-se
+ rvlet-2.1.2.jar dependency-jars/javax.servlet-3.1.jar dependency-jars
+ /jersey-json-1.9.jar dependency-jars/jettison-1.1.jar dependency-jars
+ /stax-api-1.0.1.jar dependency-jars/jaxb-impl-2.2.3-1.jar dependency-
+ jars/jaxb-api-2.2.2.jar dependency-jars/activation-1.1.jar dependency
+ -jars/jackson-jaxrs-1.8.3.jar dependency-jars/jackson-xc-1.8.3.jar de
+ pendency-jars/jersey-guice-1.9.jar dependency-jars/hadoop-yarn-server
+ -common-2.2.0.jar dependency-jars/hadoop-mapreduce-client-shuffle-2.2
+ .0.jar dependency-jars/hadoop-yarn-api-2.2.0.jar dependency-jars/hado
+ op-mapreduce-client-core-2.2.0.jar dependency-jars/hadoop-yarn-common
+ -2.2.0.jar dependency-jars/hadoop-mapreduce-client-jobclient-2.2.0.ja
+ r dependency-jars/hadoop-annotations-2.2.0.jar dependency-jars/spark-
+ launcher_2.11-1.4.0.jar dependency-jars/spark-network-common_2.11-1.4
+ .0.jar dependency-jars/spark-network-shuffle_2.11-1.4.0.jar dependenc
+ y-jars/spark-unsafe_2.11-1.4.0.jar dependency-jars/jets3t-0.7.1.jar d
+ ependency-jars/commons-codec-1.3.jar dependency-jars/commons-httpclie
+ nt-3.1.jar dependency-jars/curator-recipes-2.4.0.jar dependency-jars/
+ curator-framework-2.4.0.jar dependency-jars/curator-client-2.4.0.jar 
+ dependency-jars/zookeeper-3.4.5.jar dependency-jars/jline-0.9.94.jar 
+ dependency-jars/guava-14.0.1.jar dependency-jars/javax.servlet-3.0.0.
+ v201112011016.jar dependency-jars/commons-lang3-3.3.2.jar dependency-
+ jars/commons-math3-3.4.1.jar dependency-jars/jsr305-1.3.9.jar depende
+ ncy-jars/slf4j-api-1.7.10.jar dependency-jars/jul-to-slf4j-1.7.10.jar
+  dependency-jars/jcl-over-slf4j-1.7.10.jar dependency-jars/log4j-1.2.
+ 17.jar dependency-jars/slf4j-log4j12-1.7.10.jar dependency-jars/compr
+ ess-lzf-1.0.3.jar dependency-jars/snappy-java-1.1.1.7.jar dependency-
+ jars/lz4-1.2.0.jar dependency-jars/RoaringBitmap-0.4.5.jar dependency
+ -jars/commons-net-2.2.jar dependency-jars/akka-remote_2.11-2.3.4-spar
+ k.jar dependency-jars/akka-actor_2.11-2.3.4-spark.jar dependency-jars
+ /config-1.2.1.jar dependency-jars/netty-3.8.0.Final.jar dependency-ja
+ rs/protobuf-java-2.5.0-spark.jar dependency-jars/uncommons-maths-1.2.
+ 2a.jar dependency-jars/akka-slf4j_2.11-2.3.4-spark.jar dependency-jar
+ s/scala-library-2.11.6.jar dependency-jars/json4s-jackson_2.11-3.2.10
+ .jar dependency-jars/json4s-core_2.11-3.2.10.jar dependency-jars/json
+ 4s-ast_2.11-3.2.10.jar dependency-jars/scalap-2.11.0.jar dependency-j
+ ars/scala-compiler-2.11.0.jar dependency-jars/scala-xml_2.11-1.0.1.ja
+ r dependency-jars/scala-parser-combinators_2.11-1.0.1.jar dependency-
+ jars/jersey-server-1.9.jar dependency-jars/asm-3.1.jar dependency-jar
+ s/jersey-core-1.9.jar dependency-jars/mesos-0.21.1-shaded-protobuf.ja
+ r dependency-jars/netty-all-4.0.23.Final.jar dependency-jars/stream-2
+ .7.0.jar dependency-jars/metrics-core-3.1.0.jar dependency-jars/metri
+ cs-jvm-3.1.0.jar dependency-jars/metrics-json-3.1.0.jar dependency-ja
+ rs/metrics-graphite-3.1.0.jar dependency-jars/jackson-databind-2.4.4.
+ jar dependency-jars/jackson-annotations-2.4.0.jar dependency-jars/jac
+ kson-core-2.4.4.jar dependency-jars/jackson-module-scala_2.11-2.4.4.j
+ ar dependency-jars/scala-reflect-2.11.2.jar dependency-jars/paranamer
+ -2.6.jar dependency-jars/ivy-2.4.0.jar dependency-jars/oro-2.0.8.jar 
+ dependency-jars/tachyon-client-0.6.4.jar dependency-jars/tachyon-0.6.
+ 4.jar dependency-jars/pyrolite-4.4.jar dependency-jars/py4j-0.8.2.1.j
+ ar dependency-jars/unused-1.0.0.jar
 Build-Jdk: 1.8.0_251
 Created-By: Maven Integration for Eclipse
+Main-Class: com.journaldev.sparkdemo.WordCounter
 
