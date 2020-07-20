@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.codeinshort</groupId>
-	<artifactId>rsocket</artifactId>
+	<artifactId>RsocketServer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>rsocket</name>
 	<description>Spring Boot RSocket Emample</description>
