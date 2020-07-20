@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.codeinshort</groupId>
-	<artifactId>RsocketServer</artifactId>
+	<artifactId>rsocketserver</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>rsocket</name>
-	<description>Spring Boot RSocket Emample</description>
+	<name>rsocketserver</name>
+	<description>RSocket Server Example</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -22,6 +22,10 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-rsocket</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-webflux</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
