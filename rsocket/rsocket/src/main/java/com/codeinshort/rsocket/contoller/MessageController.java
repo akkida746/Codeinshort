@@ -31,6 +31,6 @@ public class MessageController {
 
     @GetMapping(value = "/rsocket/{user}", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
     public Flux<Message> getByUserViaRsocket(@PathVariable String user) {
-        return rSocketRequester.flatMapMany(r -> r.route("tweets.by.author").data(user).retrieveFlux(Message.class));
+        return rSocketRequester.flatMapMany(r -> r.route("message.by.user").data(user).retrieveFlux(Message.class));
     }
 }
