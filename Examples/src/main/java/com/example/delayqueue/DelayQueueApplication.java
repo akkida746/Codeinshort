@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 import java.util.concurrent.*;
 
 /*DelayQueue is an implementation of BlockingQueue where element can be taken out when its delay is expired.*/
-@SpringBootApplication
+//@SpringBootApplication
 public class DelayQueueApplication {
 
 	public static void main(String[] args) {
