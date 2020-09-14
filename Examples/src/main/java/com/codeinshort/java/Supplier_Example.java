@@ -9,8 +9,13 @@ public class Supplier_Example {
         Supplier<Person> supplier = () -> new Person();
         List<Person> persons = new ArrayList<>();
         process(supplier, persons);
+
+        // Implementing interface
+        Human human = () -> "Akash";
+        System.out.println(human.getName());
     }
 
+    @FunctionalInterface
     static interface Human{
         String getName();
     }
