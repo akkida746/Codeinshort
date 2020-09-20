@@ -1,0 +1,5 @@
+
+V
+java:S1128"4Remove this unused import 'java.util.LinkedHashMap'.(ò†ŠÞùÿÿÿÿ8Š‡ð„È.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(µˆœÑ8Š‡ð„È.
+n	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(—×Ó†ûÿÿÿÿ8ƒþë„È.

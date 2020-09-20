@@ -3,19 +3,6 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="cqrsspringboot" />
-        <module name="camelrouting" />
-        <module name="ActiveMq" />
-        <module name="rsocket" />
-        <module name="awssns" />
-        <module name="feignclient" />
-        <module name="cqrs" />
-        <module name="examples" />
-      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ActiveMq" target="1.8" />
@@ -23,24 +10,21 @@
       <module name="camelrouting" target="1.8" />
       <module name="cqrs" target="1.8" />
       <module name="cqrsspringboot" target="1.8" />
-      <module name="delayqueue" target="1.8" />
       <module name="examples" target="1.8" />
       <module name="feignclient" target="1.8" />
-      <module name="messagerouting" target="1.8" />
       <module name="rsocket" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-parameters" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ActiveMq" options="-parameters" />
       <module name="awssns" options="-parameters" />
       <module name="camelrouting" options="-parameters" />
       <module name="cqrs" options="-parameters" />
       <module name="cqrsspringboot" options="-parameters" />
-      <module name="delayqueue" options="-parameters" />
       <module name="examples" options="-parameters" />
       <module name="feignclient" options="-parameters" />
-      <module name="messagerouting" options="-parameters" />
       <module name="rsocket" options="-parameters" />
     </option>
   </component>
