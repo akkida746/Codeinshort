@@ -1,6 +1,5 @@
 package com.codeinshort.statemachine.config;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.statemachine.action.Action;
 import org.springframework.statemachine.config.EnableStateMachine;
@@ -9,8 +8,8 @@ import org.springframework.statemachine.config.builders.StateMachineStateConfigu
 import org.springframework.statemachine.config.builders.StateMachineTransitionConfigurer;
 import java.util.Arrays;
 import java.util.HashSet;
-
 @org.springframework.context.annotation.Configuration
+
 @EnableStateMachine
 public class Configuration extends StateMachineConfigurerAdapter<String, String> {
 
